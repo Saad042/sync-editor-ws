@@ -1,0 +1,24 @@
+{
+  "name": "sync-editor-ws",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./app.js",
+    "devstart": "nodemon ./app.js",
+    "serverstart": "DEBUG=sync-editor-ws:* npm run devstart"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^16.3.1",
+    "helmet": "^7.1.0",
+    "morgan": "~1.9.1",
+    "nodemon": "^3.0.1",
+    "ws": "^8.14.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.54.0"
+  }
+}
